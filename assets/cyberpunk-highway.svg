@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%" role="img">
+  <defs>
+    <linearGradient id="districtSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04020a"/>
+      <stop offset="60%" stop-color="#120524"/>
+      <stop offset="100%" stop-color="#210830"/>
+    </linearGradient>
+    <linearGradient id="neonBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#ffe600"/>
+    </linearGradient>
+    <pattern id="distScan" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-opacity="0.25" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .blink-red { animation: blink 1.2s infinite steps(1); }
+    .blink-cyan { animation: blink 1.8s infinite steps(1); }
+    .train-move { animation: trainRide 10s linear infinite; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0.15; }
+    }
+    @keyframes trainRide {
+      0% { transform: translateX(-300px); }
+      100% { transform: translateX(1300px); }
+    }
+  </style>
+
+  <rect width="1200" height="280" rx="14" fill="url(#districtSky)" stroke="#301552" stroke-width="2"/>
+
+  <!-- Distant Factories / Data Centers with glowing pipes -->
+  <g fill="#0b0617" shape-rendering="crispEdges">
+    <rect x="40" y="40" width="110" height="240"/>
+    <rect x="70" y="15" width="20" height="25"/>
+    <rect x="78" y="10" width="4" height="5" fill="#ff0055" class="blink-red"/>
+
+    <rect x="180" y="60" width="140" height="220"/>
+    <rect x="350" y="30" width="120" height="250"/>
+    <rect x="400" y="10" width="18" height="20"/>
+    <rect x="407" y="5" width="4" height="5" fill="#00f0ff" class="blink-cyan"/>
+
+    <rect x="500" y="70" width="130" height="210"/>
+    <rect x="660" y="35" width="150" height="245"/>
+    <rect x="840" y="50" width="120" height="230"/>
+    <rect x="990" y="30" width="160" height="250"/>
+    <rect x="1060" y="10" width="20" height="20"/>
+    <rect x="1068" y="5" width="4" height="5" fill="#ff0055" class="blink-red"/>
+  </g>
+
+  <!-- Glowing Neon Pipes / Cybernetic Lines -->
+  <g fill="none" stroke-width="2" shape-rendering="crispEdges">
+    <path d="M 50 60 L 50 180 L 170 180" stroke="#00f0ff" opacity="0.8"/>
+    <path d="M 370 50 L 370 120 L 490 120 L 490 200" stroke="#ff007f" opacity="0.8"/>
+    <path d="M 680 60 L 680 150 L 830 150" stroke="#ffe600" opacity="0.8"/>
+    <path d="M 1010 50 L 1010 140 L 1140 140" stroke="#00ff66" opacity="0.8"/>
+  </g>
+
+  <!-- Hanging Cables -->
+  <g fill="none" stroke="#25123d" stroke-width="2">
+    <path d="M 150 40 Q 250 80 350 30"/>
+    <path d="M 470 30 Q 565 85 660 35"/>
+    <path d="M 810 35 Q 900 80 990 30"/>
+  </g>
+
+  <!-- Mid-level Cyber Monorail -->
+  <g transform="translate(0, 160)" shape-rendering="crispEdges">
+    <!-- Monorail Track -->
+    <rect x="0" y="10" width="1200" height="12" fill="#080312" stroke="#24103d" stroke-width="1.5"/>
+    <rect x="0" y="14" width="1200" height="3" fill="#00f0ff" opacity="0.9"/>
+    <!-- Pillars -->
+    <rect x="100" y="22" width="24" height="100" fill="#06020c"/>
+    <rect x="350" y="22" width="24" height="100" fill="#06020c"/>
+    <rect x="600" y="22" width="24" height="100" fill="#06020c"/>
+    <rect x="850" y="22" width="24" height="100" fill="#06020c"/>
+    <rect x="1100" y="22" width="24" height="100" fill="#06020c"/>
+    <!-- Animated High-Speed Maglev Train -->
+    <g class="train-move" transform="translate(0, -6)">
+      <rect x="0" y="0" width="160" height="15" rx="3" fill="#13203b" stroke="#00f0ff" stroke-width="1.5"/>
+      <rect x="145" y="3" width="14" height="9" fill="#00f0ff"/>
+      <rect x="15" y="3" width="120" height="5" fill="#00f0ff" opacity="0.6"/>
+      <rect x="-40" y="6" width="40" height="3" fill="#00f0ff" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Neon District Signs -->
+  <g font-family="'Courier New', monospace" font-weight="900" shape-rendering="crispEdges">
+    <g transform="translate(200, 80)">
+      <rect x="0" y="0" width="80" height="20" fill="#06020c" stroke="#ff007f" stroke-width="1"/>
+      <text x="40" y="14" fill="#ff007f" font-size="9" text-anchor="middle" letter-spacing="1">DATA://VAULT</text>
+    </g>
+    <g transform="translate(530, 95)">
+      <rect x="0" y="0" width="70" height="20" fill="#06020c" stroke="#ffe600" stroke-width="1"/>
+      <text x="35" y="14" fill="#ffe600" font-size="9" text-anchor="middle" letter-spacing="1">API_ENGINE</text>
+    </g>
+    <g transform="translate(870, 75)">
+      <rect x="0" y="0" width="75" height="20" fill="#06020c" stroke="#00ff66" stroke-width="1"/>
+      <text x="37" y="14" fill="#00ff66" font-size="9" text-anchor="middle" letter-spacing="1">OPS_MATRIX</text>
+    </g>
+  </g>
+
+  <!-- Scanlines & Frame -->
+  <rect width="1200" height="280" rx="14" fill="url(#distScan)" pointer-events="none"/>
+  <rect x="10" y="10" width="1180" height="260" rx="10" fill="none" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1.2"/>
+  
+  <g font-family="'Courier New', monospace" font-size="10" font-weight="800">
+    <text x="30" y="32" fill="#00f0ff" letter-spacing="2">[ DISTRICT: CORE_ENGINEERING // SECTOR_07 ]</text>
+    <text x="1170" y="32" fill="#ff007f" text-anchor="end" letter-spacing="1">STATUS: HIGH_THROUGHPUT</text>
+  </g>
+</svg>
