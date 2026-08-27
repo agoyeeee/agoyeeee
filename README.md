@@ -1,16 +1,33 @@
-## Hi there 👋
+# Hi, I'm Prayoga 👋
 
-<!--
-**agoyeeee/agoyeeee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Informatics Engineering Student & Full-stack Developer
 
-Here are some ideas to get you started:
+I build web applications, internal enterprise systems,
+and occasionally fight production bugs that should not exist.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently working with Laravel, Vue, React, Next.js,
+PostgreSQL, Docker, and Linux.
+
+---
+
+### 🛠 Tech Stack
+
+[ Laravel ] [ Vue.js ] [ React ] [ Next.js ] [ TypeScript ]
+[ PostgreSQL ] [ Docker ] [ Linux ] [ Git ]
+
+### 🚀 Currently Working On
+
+🏢 Enterprise Purchasing & Inventory Systems
+⚙️ Backend Architecture & Performance
+🐳 Dockerized Development & Deployment
+🤖 AI-assisted Development Workflows
+
+### 📊 GitHub
+
+[ GitHub Stats ]   [ Top Languages ]
+
+[ Contribution / Streak Graph ]
+
+### 🌐 Connect
+
+Portfolio • LinkedIn • Email
