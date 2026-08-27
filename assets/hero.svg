@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Prayoga Putra — Full-Stack Developer</title>
+  <desc id="desc">A dark blue and cyan developer profile hero with Prayoga Putra's name, focus, and engineering principles.</desc>
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080A18"/>
+      <stop offset="0.55" stop-color="#140C2A"/>
+      <stop offset="1" stop-color="#071E2D"/>
+    </linearGradient>
+    <linearGradient id="heroLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0.18" cy="0.12" r="0.9">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0.9" cy="0.8" r="0.8">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#B9A4FF" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="460" rx="26" fill="url(#heroBg)"/>
+  <rect width="1200" height="460" rx="26" fill="url(#blueGlow)"/>
+  <rect width="1200" height="460" rx="26" fill="url(#cyanGlow)"/>
+  <circle cx="1050" cy="55" r="92" fill="#FF4FD8" fill-opacity="0.16" filter="url(#softBlur)"/>
+  <circle cx="170" cy="430" r="78" fill="#7C3AED" fill-opacity="0.16" filter="url(#softBlur)"/>
+  <rect x="24" y="24" width="1152" height="412" rx="20" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1152" height="412" rx="20" fill="none" stroke="#493B71" stroke-opacity="0.95"/>
+
+  <g transform="translate(708 294)" opacity="0.62">
+    <path d="M0 142V82H22V142H38V55H67V142H79V28H108V142H126V74H154V142H170V42H204V142H222V12H250V142H269V64H300V142H321V38H351V142H369V78H400V142" fill="#090B1A" stroke="#38245B"/>
+    <path d="M22 97H67M79 68H108M170 73H204M222 47H250M269 99H300M321 73H351" stroke="#FF4FD8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M37 109H48M37 119H48M137 95H147M137 106H147M231 67H241M231 79H241M329 93H341M329 104H341" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 142H400" stroke="#22D3EE" stroke-width="2"/>
+  </g>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="78" y="92" fill="#FF4FD8" font-size="14" font-weight="700" letter-spacing="4">HELLO, I'M</text>
+    <text x="74" y="166" fill="#F8FAFC" font-size="62" font-weight="800" letter-spacing="-2">PRAYOGA PUTRA</text>
+    <rect x="78" y="191" width="210" height="4" rx="2" fill="url(#heroLine)"/>
+    <text x="78" y="244" fill="#E2E8F0" font-size="23" font-weight="650">Full-Stack Developer</text>
+    <text x="78" y="278" fill="#94A3B8" font-size="16">Software engineering • enterprise web systems</text>
+    <text x="78" y="328" fill="#22D3EE" font-size="13" font-weight="700" letter-spacing="3">BUILD  /  OPTIMIZE  /  SHIP</text>
+    <text x="78" y="368" fill="#CBD5E1" font-size="15">Turning complex business workflows into reliable software.</text>
+    <text x="78" y="399" fill="#64748B" font-size="13">Surakarta, Indonesia  •  Informatics Engineering @ UNS</text>
+
+    <g transform="translate(820 70)">
+      <rect width="292" height="302" rx="18" fill="#0B0B20" fill-opacity="0.9" stroke="#5A3B70"/>
+      <circle cx="24" cy="25" r="5" fill="#FB7185"/>
+      <circle cx="43" cy="25" r="5" fill="#FBBF24"/>
+      <circle cx="62" cy="25" r="5" fill="#34D399"/>
+      <text x="28" y="78" fill="#FF4FD8" font-size="13" font-weight="700">$ focus --now</text>
+      <text x="28" y="116" fill="#F8FAFC" font-size="18" font-weight="700">reliable systems</text>
+      <text x="28" y="146" fill="#CBD5E1" font-size="15">clean architecture</text>
+      <text x="28" y="173" fill="#CBD5E1" font-size="15">measurable performance</text>
+      <line x1="28" y1="201" x2="264" y2="201" stroke="#3A2352"/>
+      <text x="28" y="235" fill="#22D3EE" font-size="13" font-weight="700">status</text>
+      <text x="28" y="266" fill="#F8FAFC" font-size="17" font-weight="700">building with intent</text>
+      <circle cx="252" cy="260" r="5" fill="#34D399"/>
+    </g>
+  </g>
+</svg>

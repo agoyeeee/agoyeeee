@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 278" role="img" aria-labelledby="title desc">
+  <title id="title">Currently building</title>
+  <desc id="desc">Current engineering focus across purchasing, inventory, workflow, performance, and infrastructure systems.</desc>
+  <defs>
+    <linearGradient id="focusBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080A18"/>
+      <stop offset="1" stop-color="#140C2A"/>
+    </linearGradient>
+    <linearGradient id="focusLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="278" rx="24" fill="url(#focusBg)" stroke="#493B71"/>
+  <text x="38" y="42" fill="#FF4FD8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3">CURRENTLY BUILDING / ACTIVE FOCUS</text>
+  <text x="38" y="73" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="750">Systems that make everyday operations run better.</text>
+  <rect x="38" y="91" width="1124" height="2" fill="url(#focusLine)" fill-opacity="0.7"/>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(38 116)">
+      <rect width="266" height="104" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <text x="20" y="28" fill="#22D3EE" font-size="11" font-weight="800" letter-spacing="2">01</text>
+      <text x="20" y="57" fill="#F8FAFC" font-size="15" font-weight="700">Purchasing</text>
+      <text x="20" y="80" fill="#94A3B8" font-size="12">procurement workflows</text>
+      <path d="M226 78l12-12 12 12" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    </g>
+    <g transform="translate(324 116)">
+      <rect width="266" height="104" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <text x="20" y="28" fill="#FF4FD8" font-size="11" font-weight="800" letter-spacing="2">02</text>
+      <text x="20" y="57" fill="#F8FAFC" font-size="15" font-weight="700">Inventory</text>
+      <text x="20" y="80" fill="#94A3B8" font-size="12">warehouse + raw materials</text>
+      <path d="M226 78l12-12 12 12" fill="none" stroke="#FF4FD8" stroke-width="2"/>
+    </g>
+    <g transform="translate(610 116)">
+      <rect width="266" height="104" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <text x="20" y="28" fill="#A78BFA" font-size="11" font-weight="800" letter-spacing="2">03</text>
+      <text x="20" y="57" fill="#F8FAFC" font-size="15" font-weight="700">Workflows</text>
+      <text x="20" y="80" fill="#94A3B8" font-size="12">approvals + safe transactions</text>
+      <path d="M226 78l12-12 12 12" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    </g>
+    <g transform="translate(896 116)">
+      <rect width="266" height="104" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <text x="20" y="28" fill="#34D399" font-size="11" font-weight="800" letter-spacing="2">04</text>
+      <text x="20" y="57" fill="#F8FAFC" font-size="15" font-weight="700">Performance</text>
+      <text x="20" y="80" fill="#94A3B8" font-size="12">backend + delivery systems</text>
+      <path d="M226 78l12-12 12 12" fill="none" stroke="#34D399" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

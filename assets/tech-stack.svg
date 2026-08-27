@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 326" role="img" aria-labelledby="title desc">
+  <title id="title">Prayoga Putra's technology stack</title>
+  <desc id="desc">Four structured technology groups: core, frontend, data, and delivery.</desc>
+  <defs>
+    <linearGradient id="stackLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF4FD8"/>
+    </linearGradient>
+    <linearGradient id="stackBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090A18"/>
+      <stop offset="1" stop-color="#140C2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="326" rx="24" fill="url(#stackBg)" stroke="#493B71"/>
+  <text x="38" y="45" fill="#FF4FD8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3">STACK / TOOLBOX</text>
+  <text x="38" y="72" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="750">A focused stack for shipping real products.</text>
+  <rect x="38" y="88" width="1124" height="2" fill="url(#stackLine)" fill-opacity="0.7"/>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(38 112)">
+      <rect width="266" height="178" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <circle cx="22" cy="25" r="5" fill="#22D3EE"/>
+      <text x="38" y="30" fill="#F8FAFC" font-size="14" font-weight="700">CORE</text>
+      <text x="20" y="58" fill="#64748B" font-size="11" letter-spacing="1.5">BACKEND + API</text>
+      <g fill="#122943" stroke="#244B6A">
+        <rect x="20" y="76" width="105" height="28" rx="8"/><rect x="133" y="76" width="113" height="28" rx="8"/>
+        <rect x="20" y="112" width="105" height="28" rx="8"/><rect x="133" y="112" width="113" height="28" rx="8"/>
+        <rect x="20" y="148" width="105" height="28" rx="8"/><rect x="133" y="148" width="113" height="28" rx="8"/>
+      </g>
+      <g fill="#CBD5E1" font-size="11" font-weight="600">
+        <text x="72" y="94" text-anchor="middle">PHP</text><text x="189" y="94" text-anchor="middle">Laravel</text>
+        <text x="72" y="130" text-anchor="middle">Node.js</text><text x="189" y="130" text-anchor="middle">REST API</text>
+        <text x="72" y="166" text-anchor="middle">Inertia.js</text><text x="189" y="166" text-anchor="middle">GitHub</text>
+      </g>
+    </g>
+
+    <g transform="translate(324 112)">
+      <rect width="266" height="178" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <circle cx="22" cy="25" r="5" fill="#FF4FD8"/>
+      <text x="38" y="30" fill="#F8FAFC" font-size="14" font-weight="700">FRONTEND</text>
+      <text x="20" y="58" fill="#64748B" font-size="11" letter-spacing="1.5">INTERFACES + UX</text>
+      <g fill="#122943" stroke="#244B6A">
+        <rect x="20" y="76" width="105" height="28" rx="8"/><rect x="133" y="76" width="113" height="28" rx="8"/>
+        <rect x="20" y="112" width="105" height="28" rx="8"/><rect x="133" y="112" width="113" height="28" rx="8"/>
+        <rect x="20" y="148" width="105" height="28" rx="8"/><rect x="133" y="148" width="113" height="28" rx="8"/>
+      </g>
+      <g fill="#CBD5E1" font-size="11" font-weight="600">
+        <text x="72" y="94" text-anchor="middle">Vue.js</text><text x="189" y="94" text-anchor="middle">React</text>
+        <text x="72" y="130" text-anchor="middle">Next.js</text><text x="189" y="130" text-anchor="middle">TypeScript</text>
+        <text x="72" y="166" text-anchor="middle">Tailwind</text><text x="189" y="166" text-anchor="middle">Bootstrap</text>
+      </g>
+    </g>
+
+    <g transform="translate(610 112)">
+      <rect width="266" height="178" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <circle cx="22" cy="25" r="5" fill="#34D399"/>
+      <text x="38" y="30" fill="#F8FAFC" font-size="14" font-weight="700">DATA</text>
+      <text x="20" y="58" fill="#64748B" font-size="11" letter-spacing="1.5">STORAGE + SPEED</text>
+      <g fill="#122943" stroke="#244B6A">
+        <rect x="20" y="76" width="105" height="28" rx="8"/><rect x="133" y="76" width="113" height="28" rx="8"/>
+        <rect x="20" y="112" width="105" height="28" rx="8"/><rect x="133" y="112" width="113" height="28" rx="8"/>
+        <rect x="20" y="148" width="105" height="28" rx="8"/><rect x="133" y="148" width="113" height="28" rx="8"/>
+      </g>
+      <g fill="#CBD5E1" font-size="11" font-weight="600">
+        <text x="72" y="94" text-anchor="middle">PostgreSQL</text><text x="189" y="94" text-anchor="middle">MySQL</text>
+        <text x="72" y="130" text-anchor="middle">Redis</text><text x="189" y="130" text-anchor="middle">SQL</text>
+        <text x="72" y="166" text-anchor="middle">Query tuning</text><text x="189" y="166" text-anchor="middle">Schemas</text>
+      </g>
+    </g>
+
+    <g transform="translate(896 112)">
+      <rect width="266" height="178" rx="16" fill="#10162B" stroke="#3A2352"/>
+      <circle cx="22" cy="25" r="5" fill="#FBBF24"/>
+      <text x="38" y="30" fill="#F8FAFC" font-size="14" font-weight="700">DELIVERY</text>
+      <text x="20" y="58" fill="#64748B" font-size="11" letter-spacing="1.5">DEVOPS + TOOLING</text>
+      <g fill="#122943" stroke="#244B6A">
+        <rect x="20" y="76" width="105" height="28" rx="8"/><rect x="133" y="76" width="113" height="28" rx="8"/>
+        <rect x="20" y="112" width="105" height="28" rx="8"/><rect x="133" y="112" width="113" height="28" rx="8"/>
+        <rect x="20" y="148" width="105" height="28" rx="8"/><rect x="133" y="148" width="113" height="28" rx="8"/>
+      </g>
+      <g fill="#CBD5E1" font-size="11" font-weight="600">
+        <text x="72" y="94" text-anchor="middle">Docker</text><text x="189" y="94" text-anchor="middle">Linux</text>
+        <text x="72" y="130" text-anchor="middle">Git</text><text x="189" y="130" text-anchor="middle">Postman</text>
+        <text x="72" y="166" text-anchor="middle">Vite</text><text x="189" y="166" text-anchor="middle">Deployment</text>
+      </g>
+    </g>
+  </g>
+</svg>
